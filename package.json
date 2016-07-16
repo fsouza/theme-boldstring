@@ -1,0 +1,22 @@
+{
+    "name": "theme-boldstring",
+    "displayName": "bold-string",
+    "description": "A very simple theme where strings get bolded, and that's it.",
+    "version": "0.0.1",
+    "publisher": "fsouza",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "BoldString",
+                "uiTheme": "vs",
+                "path": "./themes/BoldString.tmTheme"
+            }
+        ]
+    }
+}
